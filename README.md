@@ -5,9 +5,8 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
-- [📖-To-do-list ](#-to-do-list-)
-- [Live-Demo](#live-demo)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖-About-the-Project ](#-about-the-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,15 +26,15 @@
   - [📝 License ](#-license-)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖-To-do-list <a name="about-project"></a>
-# [Live-Demo](https://harshi0102.github.io/todolist/)
+# 📖-About-the-Project <a name="about-project"></a>
+
 <div align="left">
 <img src="todo1.jpg"width="650" height="auto"alt="screenshot1">
 <img src="todo2.jpg"width="650" height="auto"alt="screenshot1">
 <img src="todo3.jpg"width="650" height="auto"alt="screenshot1">
 </div>
 
-
+-**[LiveDemo]**(https://harshi0102.github.io/todolist/)
 
 **To-do-list** is a project done for the activity "To Do list: list structure" of the Microverse Program. The goal is to to learn use webpack and javascript ES6.
 In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
