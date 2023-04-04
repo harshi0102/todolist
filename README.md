@@ -1,5 +1,6 @@
 
 # To Do List project
+# [Live-Demo](https://harshi0102.github.io/todolist/)
 
 > Second Javascript project from Module 2 at Microverse
 <div align="left">
@@ -49,7 +50,7 @@ In this project, you will build a simple HTML list of To Do tasks. The list will
 
 ## Live Demo
 
-- [Live Demo](https://github.com/harshi0102/todolist)
+- [Live Demo](https://harshi0102.github.io/todolist/)
 
 ## Source code
 
