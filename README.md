@@ -5,7 +5,7 @@
 
 ![screenshot 1](todo1.jpg)
 ![screenshot 2](todo2.jpg)
-![screenshot 3](ToDo3.png)
+![screenshot 3](todo3.png)
 
 In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
