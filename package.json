@@ -1,16 +1,12 @@
 {
   "name": "todolist",
   "version": "1.0.0",
-  "description": "To do List",
-  "repository": {
-    "url": "git+https://github.com/harshi0102/todolist.git"
+  "description": "To do List"
   },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
