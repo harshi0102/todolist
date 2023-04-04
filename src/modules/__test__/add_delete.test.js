@@ -4,7 +4,7 @@
 
 import {
   addTask, saveTasks, loadTasks, renderTaskList,
-} from '../renderTask';
+} from '../renderTask.js';
 
 describe('Add and delete', () => {
   test('Add one new item to the list', () => {

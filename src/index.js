@@ -1,5 +1,5 @@
 import './style.css';
-import { saveTasks, loadTasks } from './modules/storage';
+import { saveTasks, loadTasks } from './modules/storage.js';
 
 const taskList = document.getElementById('taskList');
 const newTaskForm = document.getElementById('newTaskForm');

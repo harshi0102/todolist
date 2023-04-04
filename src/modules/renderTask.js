@@ -6,7 +6,7 @@ import {
   deleteCompletedTasks,
   swapIndex,
   updateIndex,
-} from './storage';
+} from './storage.js';
 
 const saveEdit = (index, value) => {
   renderTaskList(editTask(index, value)); // eslint-disable-line no-use-before-define
