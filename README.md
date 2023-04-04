@@ -1,5 +1,5 @@
 
-# Harshika Govind's To Do List project
+# To Do List project
 
 > Second Javascript project from Module 2 at Microverse
 <div align="left">
