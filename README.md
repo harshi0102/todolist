@@ -23,23 +23,23 @@ In this project, you will build a simple HTML list of To Do tasks. The list will
 
 ## Interactive list (step 2):
 
-- [x] Add a new JavaScript files and import it as a module:
-  - [x] it will contain methods related to the status updates (`completed`: `true` / `false`).
-- [x] Add event listener to the checkbox (`change`).
-- [x] Update items object's value for `completed` key upon user actions.
-- [x] Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
+- Add a new JavaScript files and import it as a module:
+- it will contain methods related to the status updates (`completed`: `true` / `false`).
+- Add event listener to the checkbox (`change`).
+- Update items object's value for `completed` key upon user actions.
+- Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
 
 ## Add & remove functions (step 3):
 
-- [x] Remove all hardcoded items from the tasks array.
-- [x] Create a new JavaScript file for the new functionality.
-- [x] Implement a function for adding a new task (add a new element to the array).
-- [x] Implement a function for editing task descriptions.
-- [x] Implement a function for deleting a task (remove an element from the array).
-- [x] Implement a function for the "Clear all completed" button (use `filter()` method).
-- [x] By default new tasks should have the property `completed` set to `false` and the property index set to the value of the new array length (i.e. if you're adding a 5th task to the list, the index of that task should equal to 5).
-- [x] Deleting a task should update all remaining items' indexes, so they represent the current list order and are unique.
-- [x] All changes to the To Do List should be saved in local storage.
+-Remove all hardcoded items from the tasks array.
+- Create a new JavaScript file for the new functionality.
+- Implement a function for adding a new task (add a new element to the array).
+- Implement a function for editing task descriptions.
+- Implement a function for deleting a task (remove an element from the array).
+- Implement a function for the "Clear all completed" button (use `filter()` method).
+-  By default new tasks should have the property `completed` set to `false` and the property index set to the value of the new array length (i.e. if you're adding a 5th task to the list, the index of that task should equal to 5).
+-  Deleting a task should update all remaining items' indexes, so they represent the current list order and are unique.
+- All changes to the To Do List should be saved in local storage.
 
 ## Built With
 
