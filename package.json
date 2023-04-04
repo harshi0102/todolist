@@ -2,10 +2,15 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "To do List",
+  "repository": {
+    "url": "git+https://github.com/harshi0102/todolist.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +21,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
+    "gh-pages": "^5.0.0",
     "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.2",
