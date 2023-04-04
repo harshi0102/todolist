@@ -6,11 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖-To-do-list ](#-to-do-list-)
-- [Live-Demo](#live-demo)
-  - [List structure (step 1):](#list-structure-step-1)
-  - [Interactive list (step 2):](#interactive-list-step-2)
-  - [Add \& remove functions (step 3):](#add--remove-functions-step-3)
+- [📖-About-the-Project ](#-about-the-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,23 +24,22 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-
 <!-- PROJECT DESCRIPTION -->
 
-# 📖-To-do-list <a name="about-project"></a>
-# [Live-Demo](https://harshi0102.github.io/todolist/)
+# 📖-About-the-Project <a name="about-project"></a>
+
 <div align="left">
 <img src="todo1.jpg"width="650" height="auto"alt="screenshot1">
 <img src="todo2.jpg"width="650" height="auto"alt="screenshot1">
 <img src="todo3.jpg"width="650" height="auto"alt="screenshot1">
 </div>
 
-
+-**[LiveDemo]**(https://harshi0102.github.io/todolist/)
 
 **To-do-list** is a project done for the activity "To Do list: list structure" of the Microverse Program. The goal is to to learn use webpack and javascript ES6.
 In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
-## List structure (step 1):
+List structure (step 1):
 
 - [x] Set up a new project with webpack that is based on the webpack exercise you have already completed.
 - [x] Create an index.html file and write your HTML markup here. Create an empty To Do List placeholder (`<div>` or `<ul>` element). The index.html file must be set as a template using the HTML Webpack Plugin.
@@ -56,7 +51,7 @@ In this project, you will build a simple HTML list of To Do tasks. The list will
 - [x] On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.
 - [x] Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader. Your list should be a clone of the part of the minimalist project captured in the video below.
 
-## Interactive list (step 2):
+Interactive list (step 2):
 
 - Add a new JavaScript files and import it as a module:
 - it will contain methods related to the status updates (`completed`: `true` / `false`).
@@ -64,7 +59,7 @@ In this project, you will build a simple HTML list of To Do tasks. The list will
 - Update items object's value for `completed` key upon user actions.
 - Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
 
-## Add & remove functions (step 3):
+Add & remove functions (step 3):
 
 -Remove all hardcoded items from the tasks array.
 - Create a new JavaScript file for the new functionality.
