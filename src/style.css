@@ -126,22 +126,12 @@ li input[type="checkbox"] {
   margin-right: 1rem;
 }
 
-li label,
-#editfield {
+li label {
   flex: 1;
   margin: 0;
   font-size: 1.2rem;
   text-decoration: none;
   color: inherit;
-}
-
-#editfield {
-  border: none;
-}
-
-#editfield:focus {
-  border: none;
-  outline: none;
 }
 
 li label.completed {
@@ -199,8 +189,4 @@ li.dragging {
 
 #clearCompleted:hover {
   background-color: #c0392b;
-}
-
-.disable {
-  display: none;
 }
