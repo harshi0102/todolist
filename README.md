@@ -29,9 +29,7 @@
 # 📖-About-the-Project <a name="about-project"></a>
 
 <div align="left">
-<img src="todo1.jpg"width="650" height="auto"alt="screenshot1">
-<img src="todo2.jpg"width="650" height="auto"alt="screenshot1">
-<img src="todo3.jpg"width="650" height="auto"alt="screenshot1">
+<img src="ToDoList.jpg"width="650" height="auto"alt="screenshot1">
 </div>
 
 -**[LiveDemo]**(https://harshi0102.github.io/todolist/)
