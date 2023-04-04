@@ -49,15 +49,7 @@ List structure (step 1):
 - [x] On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.
 - [x] Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader. Your list should be a clone of the part of the minimalist project captured in the video below.
 
-Interactive list (step 2):
-
-- Add a new JavaScript files and import it as a module:
-- it will contain methods related to the status updates (`completed`: `true` / `false`).
-- Add event listener to the checkbox (`change`).
-- Update items object's value for `completed` key upon user actions.
-- Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
-
-Add & remove functions (step 3):
+Add & remove functions (step 2):
 
 -Remove all hardcoded items from the tasks array.
 - Create a new JavaScript file for the new functionality.
@@ -68,6 +60,16 @@ Add & remove functions (step 3):
 -  By default new tasks should have the property `completed` set to `false` and the property index set to the value of the new array length (i.e. if you're adding a 5th task to the list, the index of that task should equal to 5).
 -  Deleting a task should update all remaining items' indexes, so they represent the current list order and are unique.
 - All changes to the To Do List should be saved in local storage.
+
+
+Interactive list (step 3):
+
+- Add a new JavaScript files and import it as a module:
+- it will contain methods related to the status updates (`completed`: `true` / `false`).
+- Add event listener to the checkbox (`change`).
+- Update items object's value for `completed` key upon user actions.
+- Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
