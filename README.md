@@ -2,11 +2,11 @@
 # Harshika Govind's To Do List project
 
 > Second Javascript project from Module 2 at Microverse
-
-![screenshot 1](todo1.jpg)
-![screenshot 2](todo2.jpg)
-![screenshot 3](todo3.jpg)
-
+<div align="left">
+<img src="todo1.jpg" width="650" height="auto" alt="screenshot1">
+<img src="todo2.jpg" width="650" height="auto" alt="screenshot1">
+<img src="todo3.jpg" width="650" height="auto" alt="screenshot1">
+</div>
 In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
 ## List structure (step 1):
