@@ -5,14 +5,9 @@ let checkMark = document.querySelectorAll('.fa-check');
 let toDoText = document.querySelectorAll('.todo');
 let markId;
 let btnId;
-<<<<<<< HEAD
 
 function getStatus() {
   if (localStorage.length === 0) {
-=======
-function getStatus() {
-  if (localStorage.length === 0 || localStorage.getItem('toDoList') === null) {
->>>>>>> main
     localStorage.clear();
   } else {
     const storedToDoList = JSON.parse(localStorage.getItem('toDoList'));
@@ -62,8 +57,4 @@ function checkButton() {
 
 export {
   checkButton, showItems, toDoItems, getStatus,
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> main
