@@ -43,7 +43,7 @@ function context() {
 }
 
 function addNewItem() {
-  const onFocusOut = () => {
+  const onfocusout = () => {
     itemText = newItem.value;
     if (itemText !== '') {
       newItem.value = '';
@@ -63,10 +63,10 @@ function addNewItem() {
   };
   newItem.addEventListener('keyup', ({ key }) => {
     if (key === 'Enter') {
-      onFocusOut();
+      onfocusout();
     }
   });
-  newItem.addEventListener('focusout', onFocusOut);
+  newItem.addEventListener('focusout', onfocusout);
 }
 
 function displayStored() {
