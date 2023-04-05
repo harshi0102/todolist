@@ -28,7 +28,11 @@ body {
 
 .todo-item,
 .add-new {
+<<<<<<< HEAD
   min-height: 66px !important;
+=======
+  min-height: 66px;
+>>>>>>> main
 }
 
 .todo-item:last-of-type {
@@ -106,6 +110,53 @@ textarea {
   width: 100%;
   margin: 0 0.5rem;
   padding-top: 0.5rem;
+<<<<<<< HEAD
+=======
+}
+
+.fa-square,
+.fa-check {
+  cursor: pointer;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.fa-level-down-alt {
+  transform: rotate(90deg);
+  position: absolute;
+  right: calc(30%);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.fa-sync,
+.fa-ellipsis-v,
+.fa-trash-alt {
+  padding: 1rem;
+}
+
+.fa-sync:hover {
+  color: rgb(105, 223, 105);
+  transition: 0.4s;
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+  color: rgb(212, 58, 58);
+  transform: scale(1.25);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.heading {
+  padding-left: 1rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+>>>>>>> main
 }
 
 .fa-square,

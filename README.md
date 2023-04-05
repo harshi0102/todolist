@@ -28,9 +28,12 @@
 
 # 📖-About-the-Project <a name="about-project"></a>
 
-<div align="left">
-<img src="ToDoList.jpg"width="650" height="auto"alt="screenshot1">
-</div>
+![screenshot 1](./src/img/ToDo1.png)
+![screenshot 2](./src/img/ToDo2.png)
+![screenshot 3](./src/img/ToDo3.png)
+![screenshot 4](./src/img/ToDo4.png)
+![screenshot 5](./src/img/ToDo5.png)
+>>>>>>> main
 
 -**[LiveDemo]**(https://harshi0102.github.io/todolist/)
 
