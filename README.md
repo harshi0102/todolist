@@ -28,11 +28,7 @@
 
 # 📖-About-the-Project <a name="about-project"></a>
 
-![screenshot 1](src/img/ToDo1.png)
-![screenshot 2](src/img/ToDo2.png)
-![screenshot 3](src/img/ToDo3.png)
-![screenshot 4](src/img/ToDo4.png)
-![screenshot 5](src/img/ToDo5.png)
+![screenshot 1](ToDoList.jpg)
 
 -**[LiveDemo]**(https://harshi0102.github.io/todolist/)
 
