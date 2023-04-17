@@ -37,7 +37,7 @@
 -***Live Demo Link***- https://harshi0102.github.io/todolist/
 
 **To-do-list** is a project done for the activity "To Do list: list structure" of the Microverse Program. The goal is to to learn use webpack and javascript ES6.
-In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
+In this project,To do list app is built with HTML, css , Javascript, ES6 and webpack. The list is styled according to the specifications listed in the below information. This simple web page is  built using webpack and served by a webpack dev server.
 
 List structure (step 1):
 
