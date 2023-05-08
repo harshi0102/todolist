@@ -39,6 +39,8 @@
 **To-do-list** is a project done for the activity "To Do list: list structure" of the Microverse Program. The goal is to to learn use webpack and javascript ES6.
 In this project,To do list app is built with HTML, css , Javascript, ES6 and webpack. The list is styled according to the specifications listed in the below information. This simple web page is  built using webpack and served by a webpack dev server.
 
+All the below requirements have been implemented in this project
+
 List structure (step 1):
 
 - [x] Set up a new project with webpack that is based on the webpack exercise you have already completed.
