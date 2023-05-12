@@ -43,8 +43,12 @@ All the below requirements have been implemented in this project
 
 Phase 1- todoList-Structure Branch (step 1):
 I have set up a new project with webpack and created an index.html which is set as template using the HTML webpack plugin. I have created an index.js file and set an array of some simple to do tasks (array of objects) where each task object contains three keys :  description [string],completed [bool] and  index: [number]. I wrote a functio to iterate over the tasks and populated an HTML list item element for each task so that on page load  list of tasks in the dedicated placeholder are rendered dynamically.I created a style.css and set rules fo the Todo List.
+
+
 Phase 2-addRemove Branch (step2)
 I removed all hardcoded items from the tasks array and created a new JavaScript file for the new functionality.I implemented  a function for adding a new task (added a new element to the array).I implemented  a function for editing task descriptions.I implemented a function for deleting a task(removed an element from the array).I deleted a task which  update all remaining items' indexes, so they represent the current list order and are unique. All changes to the To Do List are saved in local storage.
+
+
 
 Phase3-Interactive Branch (step3)
 I added a new Javascript files and import it as  module which contain methods related to the status updates (`completed`: `true` / `false`).I added event listener to the checkbox (`change`).I updated  items object's value for `completed` key upon user actions.I stored the updated array of items in local storage, so the user gets the correct list values after the page reloads.
