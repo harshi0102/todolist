@@ -41,37 +41,13 @@ In this project,To do list app is built with HTML, css , Javascript, ES6 and web
 
 All the below requirements have been implemented in this project
 
-List structure (step 1):
+Phase 1- todoList-Structure Branch (step 1):
+I have set up a new project with webpack and created an index.html which is set as template using the HTML webpack plugin. I have created an index.js file and set an array of some simple to do tasks (array of objects) where each task object contains three keys :  description [string],completed [bool] and  index: [number]. I wrote a functio to iterate over the tasks and populated an HTML list item element for each task so that on page load  list of tasks in the dedicated placeholder are rendered dynamically.I created a style.css and set rules fo the Todo List.
+Phase 2-addRemove Branch (step2)
+I removed all hardcoded items from the tasks array and created a new JavaScript file for the new functionality.I implemented  a function for adding a new task (added a new element to the array).I implemented  a function for editing task descriptions.I implemented a function for deleting a task(removed an element from the array).I deleted a task which  update all remaining items' indexes, so they represent the current list order and are unique. All changes to the To Do List are saved in local storage.
 
-- [x] Set up a new project with webpack that is based on the webpack exercise you have already completed.
-- [x] Create an index.html file and write your HTML markup here. Create an empty To Do List placeholder (`<div>` or `<ul>` element). The index.html file must be set as a template using the HTML Webpack Plugin.
-- [x] Create an index.js file and set an array of some simple to do tasks (array of objects). Each task object should contain three keys:
-  - [x] i.   description [string].
-  - [x] ii.  completed [bool].
-  - [x] iii. index: [number].
-- [x] Write a function to iterate over the tasks array and populate an HTML list item element for each task.
-- [x] On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.
-- [x] Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader. Your list should be a clone of the part of the minimalist project captured in the video below.
-
-Add & remove functions (step 2):
-
-- [x] Remove all hardcoded items from the tasks array.
-- [x] Create a new JavaScript file for the new functionality.
-- [x] Implement a function for adding a new task (add a new element to the array).
-- [x] Implement a function for editing task descriptions.
-- [x] Implement a function for deleting a task (remove an element from the array).
-- [x] Implement a function for the "Clear all completed" button (use `filter()` method).
-- [x] By default new tasks should have the property `completed` set to `false` and the property index set to the value of the new array length (i.e. if you're adding a 5th task to the list, the index of that task should equal to 5).
-- [x] Deleting a task should update all remaining items' indexes, so they represent the current list order and are unique.
-- [x] All changes to the To Do List should be saved in local storage.
-
-Interactive list (step 3):
-
-- [x] Add a new JavaScript files and import it as a module:
-  - [x] it will contain methods related to the status updates (`completed`: `true` / `false`).
-- [x] Add event listener to the checkbox (`change`).
-- [x] Update items object's value for `completed` key upon user actions.
-- [x] Store the updated array of items in local storage, so the user gets the correct list values after the page reloads.
+Phase3-Interactive Branch (step3)
+I added a new Javascript files and import it as  module which contain methods related to the status updates (`completed`: `true` / `false`).I added event listener to the checkbox (`change`).I updated  items object's value for `completed` key upon user actions.I stored the updated array of items in local storage, so the user gets the correct list values after the page reloads.
 
 
 ## 🛠 Built With <a name="built-with"></a>
