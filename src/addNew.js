@@ -42,7 +42,7 @@ function context() {
   fullList.appendChild(toDoDiv);
 }
 
-function addNewItem() {
+function addNewTask() {
   const onFocusOut = () => {
     itemText = newItem.value;
     if (itemText !== '') {
@@ -77,8 +77,8 @@ function displayStored() {
     showItems();
     checkButton();
   }
-  addNewItem();
+  addNewTask();
   numberIndex = toDoItems.length;
 }
 
-export { addNewItem, context, displayStored };
+export { addNewTask, context, displayStored };
