@@ -1,14 +1,14 @@
 import './style.css';
-import { getStatus } from './status.js';
-import { displayStored } from './addNew.js';
-import { editToDo, clearCompleted } from './removeItem.js';
-import { addNewItem } from './addNew.js';
+import { fetchStatus } from './status.js';
+import { displayItems, addNewTask } from './addNew.js';
+import { editApp, clearTask } from './removeItem.js';
 
 function main() {
-  getStatus();
-  displayStored();
-  editToDo();
-  clearCompleted();
+  fetchStatus();
+  displayItems();
+  editApp();
+  clearTask();
+  addNewTask();
 }
 
 main();

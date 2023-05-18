@@ -6,7 +6,7 @@ let toDoText = document.querySelectorAll('.todo');
 let markId;
 let btnId;
 
-function getStatus() {
+function fetchStatus() {
   if (localStorage.length === 0) {
     localStorage.clear();
   } else {
@@ -18,7 +18,7 @@ function getStatus() {
 }
 
 function showItems() {
-  const currentItems = getStatus();
+  const currentItems = fetchStatus();
   checkBtn = document.querySelectorAll('.fa-square');
   checkMark = document.querySelectorAll('.fa-check');
   toDoText = document.querySelectorAll('.todo');
@@ -56,5 +56,5 @@ function checkButton() {
 }
 
 export {
-  checkButton, showItems, toDoItems, getStatus,
+  checkButton, showItems, toDoItems, fetchStatus,
 };

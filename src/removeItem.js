@@ -1,4 +1,4 @@
-import { getStatus, showItems } from './status.js';
+import { fetchStatus, showItems } from './status.js';
 
 let textFields = document.querySelectorAll('.todo');
 let dotsIcon = document.querySelectorAll('.fa-ellipsis-v');
@@ -21,7 +21,7 @@ function getCurrent() {
 
 function sortToDo(fieldId) {
   getCurrent();
-  const unsortedItems = getStatus();
+  const unsortedItems = fetchStatus();
   for (let i = fieldId; i < unsortedItems.length; i += 1) {
     unsortedItems[i].index = i;
     allDivs[i].setAttribute('data-id', i);
@@ -33,10 +33,10 @@ function sortToDo(fieldId) {
     textFields[i].setAttribute('id', i);
   }
   localStorage.setItem('toDoList', JSON.stringify(unsortedItems));
-  getStatus();
+  fetchStatus();
 }
 
-function editToDo(textFieldsLocal) {
+function editApp(textFieldsLocal) {
   textFields = document.querySelectorAll('.todo');
   if (textFieldsLocal === undefined) {
     textFieldsLocal = textFields;
@@ -54,7 +54,7 @@ function editToDo(textFieldsLocal) {
       trashIcon.classList.remove('hide');
       // Delete function
       trashIcon.addEventListener('mousedown', () => {
-        const storedItems = getStatus();
+        const storedItems = fetchStatus();
         listItem.remove();
         storedItems.splice(fieldId, 1);
         localStorage.setItem('toDoList', JSON.stringify(storedItems));
@@ -64,7 +64,7 @@ function editToDo(textFieldsLocal) {
       });
       // Edit todo item
       field.addEventListener('keyup', () => {
-        const storedItems = getStatus();
+        const storedItems = fetchStatus();
         const editedString = listItem.querySelector('.todo').value;
         storedItems[fieldId].description = editedString;
         localStorage.setItem('toDoList', JSON.stringify(storedItems));
@@ -80,17 +80,17 @@ function editToDo(textFieldsLocal) {
   });
 }
 
-function clearCompleted() {
+function clearTask() {
   const btnClear = document.getElementById('clear-text');
   btnClear.addEventListener('click', () => {
-    const markedItems = getStatus();
+    const markedItems = fetchStatus();
     for (let i = 0; i < markedItems.length; i += 1) {
       if (markedItems[i].completed === true) {
         getCurrent();
         allDivs[i].remove();
         markedItems.splice(i, 1);
         localStorage.setItem('toDoList', JSON.stringify(markedItems));
-        getStatus();
+        fetchStatus();
         sortToDo(i);
         showItems();
         i -= 1;
@@ -99,4 +99,4 @@ function clearCompleted() {
   });
 }
 
-export { editToDo, clearCompleted };
+export { editApp, clearTask };

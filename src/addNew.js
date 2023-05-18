@@ -1,5 +1,5 @@
 import { toDoItems, showItems, checkButton } from './status.js';
-import { editToDo } from './removeItem.js';
+import { editApp } from './removeItem.js';
 
 function ToDoItem(description, completed = false, index = 0) {
   this.description = description;
@@ -58,7 +58,7 @@ function addNewTask() {
       numberIndex = toDoDivsAll.length;
       showItems();
       checkButton();
-      editToDo([textArea]);
+      editApp([textArea]);
     }
   };
   newItem.addEventListener('keyup', ({ key }) => {
@@ -69,7 +69,7 @@ function addNewTask() {
   newItem.addEventListener('focusout', onFocusOut);
 }
 
-function displayStored() {
+function displayItems() {
   for (let i = 0; i < toDoItems.length; i += 1) {
     context();
     toDoText = document.querySelectorAll('.todo');
@@ -81,4 +81,4 @@ function displayStored() {
   numberIndex = toDoItems.length;
 }
 
-export { addNewTask, context, displayStored };
+export { addNewTask, context, displayItems };
